@@ -1,0 +1,110 @@
+nav {
+    display: block;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    flex-direction: column;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+.container {
+    width: 70%;
+    margin: 0px auto;
+    flex-direction: column;
+}
+
+.row {
+    width: 100%;
+    display: inline-block;
+}
+
+footer {
+    padding: 4px 8px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position:fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 {
+    width: 20%;
+    height: 150px;
+    text-align: center;
+}
+
+.box2 {
+    width: 60%;
+    height: 300px;
+    padding: 15px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    text-align: justify;
+    border:rgb(70, 16, 164) solid;
+    background-color: plum;
+}
+
+.box3 {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+    border: #CCC solid;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border:rgb(213, 29, 177) solid;
+    background-color: aqua;
+}
+
+.box4 {
+    width: 50%;
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+    border: rgb(233, 15, 131) solid;
+    margin: 0px 15px 15px 15px;
+    border: rgb(69, 185, 37) solid;
+    background-color:burlywood;
+}
+
+.box5 {
+    width: 50%;
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+    border: rgb(233, 15, 131) solid;
+    margin: 0px 15px 15px 15px;
+    border: rgb(69, 185, 37) solid;
+    background-color: burlywood;
+}
